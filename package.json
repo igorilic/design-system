@@ -2,7 +2,9 @@
   "name": "design-system",
   "version": "0.0.0",
   "license": "MIT",
-  "scripts": {},
+  "scripts": {
+    "build:storybook": "nx run uikit:build-storybook"
+  },
   "private": true,
   "dependencies": {
     "@heroicons/react": "^2.0.17",
@@ -10,6 +12,10 @@
     "react": "18.2.0",
     "react-dom": "18.2.0",
     "tslib": "^2.3.0"
+  },
+  "engines": {
+    "node": ">=14.0.0 <17.0.0",
+    "npm": ">=9.0.0"
   },
   "devDependencies": {
     "@babel/core": "7.12.13",
